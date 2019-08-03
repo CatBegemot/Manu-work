@@ -7,6 +7,7 @@ pictMenu.style.top = "10px";
 pictMenu.style.left = "10px";
 pictMenu.src = imgPath + "menuOn.png";
 
+var pictMain = document.createElement("img");
 document.body.appendChild(pictMain);
 pictMain.id = "pictMain";
 pictMain.style.position = "absolute";
@@ -35,6 +36,8 @@ pictThird.src = imgPath + "third.png";
 
 var linkMenu = document.createElement("A");
 pictMenu.onmouseover = function() {startMain()};
+pictMenu.onmouseover = function() {startSecond()};
+pictMenu.onmouseover = function() {startThird()};
 pictMenu.onmouseout = function() {startMainOff()};
 pictMenu.onclick = function() {startLinkMain()};
 

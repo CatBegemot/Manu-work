@@ -10,5 +10,5 @@ pictMenu.src = imgPath + "menu.png";
 var linkMenu = document.createElement("A");
 pictMenu.onmouseover = function() {startMenu()};
 pictMenu.onmouseout = function() {startMenuOff()};
-pictMenu.onmouseover = function() {startLink()};
-pictMenu.onclick = function() {startLink()};
+pictMenu.onmouseover = function() {startLinkMenu()};
+pictMenu.onclick = function() {startLinkMenu()};

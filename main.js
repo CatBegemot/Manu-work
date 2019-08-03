@@ -35,6 +35,8 @@ pictThird.src = imgPath + "third.png";
 
 var linkMenu = document.createElement("A");
 pictMenu.onmouseover = function() {startMain()};
+pictMenu.onmouseover = function() {startSecond()};
+pictMenu.onmouseover = function() {startThird()};
 pictMenu.onmouseout = function() {startMainOff()};
 pictMenu.onclick = function() {startLinkMain()};
 
