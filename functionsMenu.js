@@ -1,11 +1,3 @@
-function startMenu() {
-    document.getElementById("divImg").src = imgPath + "menuOn.png";
-    document.getElementById("divImg").src = imgPath + "main.png";
-    document.getElementById("divImg").src = imgPath + "second.png";
-    document.getElementById("divImg").src = imgPath + "third.png";
-    return;
-};
-
 function startMain() {
     document.getElementById("imgMenu").src = imgPath + "menuOn.png";
     document.getElementById("imgMain").src = imgPath + "mainOn.png";

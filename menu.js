@@ -34,9 +34,10 @@ imgThird.style.left = "10px";
 imgThird.src = imgPath + "third.png";
 
 var linkMenu = document.createElement("A");
-imgMenu.onmouseover = function() {startMain()};
-imgMenu.onmouseover = function() {startSecond()};
-imgMenu.onmouseover = function() {startThird()};
+
+imgMain.onmouseover = function() {startMain()};
+imgSecond.onmouseover = function() {startSecond()};
+imgThird.onmouseover = function() {startThird()};
 imgMenu.onmouseout = function() {startMainOff()};
-imgMenu.onclick = function() {startLinkMain()};
+imgMain.onclick = function() {startLinkMain()};
 
