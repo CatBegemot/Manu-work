@@ -1,1 +1,1 @@
-imgPath = "../My_web/img/"
+imgPath = "img/"

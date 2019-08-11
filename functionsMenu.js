@@ -1,40 +1,40 @@
 function startMenu() {
-    document.getElementById("pictMenu").src = imgPath + "menuOn.png";
-    document.getElementById("pictMain").src = imgPath + "main.png";
-    document.getElementById("pictSecond").src = imgPath + "second.png";
-    document.getElementById("pictThird").src = imgPath + "third.png";
+    document.getElementById("divImg").src = imgPath + "menuOn.png";
+    document.getElementById("divImg").src = imgPath + "main.png";
+    document.getElementById("divImg").src = imgPath + "second.png";
+    document.getElementById("divImg").src = imgPath + "third.png";
     return;
 };
 
 function startMain() {
-    document.getElementById("pictMenu").src = imgPath + "menuOn.png";
-    document.getElementById("pictMain").src = imgPath + "mainOn.png";
-    document.getElementById("pictSecond").src = imgPath + "second.png";
-    document.getElementById("pictThird").src = imgPath + "third.png";
+    document.getElementById("imgMenu").src = imgPath + "menuOn.png";
+    document.getElementById("imgMain").src = imgPath + "mainOn.png";
+    document.getElementById("imgSecond").src = imgPath + "second.png";
+    document.getElementById("imgThird").src = imgPath + "third.png";
     return;
 };
 
 function startSecond() {
-    document.getElementById("pictMenu").src = imgPath + "menuOn.png";
-    document.getElementById("pictMain").src = imgPath + "main.png";
-    document.getElementById("pictSecond").src = imgPath + "secondOn.png";
-    document.getElementById("pictThird").src = imgPath + "third.png";
+    document.getElementById("imgMenu").src = imgPath + "menuOn.png";
+    document.getElementById("imgMain").src = imgPath + "main.png";
+    document.getElementById("imgSecond").src = imgPath + "secondOn.png";
+    document.getElementById("imgThird").src = imgPath + "third.png";
     return;
 };
 
 function startThird() {
-    document.getElementById("pictMenu").src = imgPath + "menuOn.png";
-    document.getElementById("pictMain").src = imgPath + "main.png";
-    document.getElementById("pictSecond").src = imgPath + "second.png";
-    document.getElementById("pictThird").src = imgPath + "thirdOn.png";
+    document.getElementById("imgMenu").src = imgPath + "menuOn.png";
+    document.getElementById("imgMain").src = imgPath + "main.png";
+    document.getElementById("imgSecond").src = imgPath + "second.png";
+    document.getElementById("imgThird").src = imgPath + "thirdOn.png";
     return;
 };
 
 function startMenuOff() {
-    document.getElementById("pictMenu").src = imgPath + "menu.png";
-    document.getElementById("pictMain").src = imgPath + "main.png";
-    document.getElementById("pictSecond").src = imgPath + "second.png";
-    document.getElementById("pictThird").src = imgPath + "third.png";
+    document.getElementById("imgMenu").src = imgPath + "menu.png";
+    document.getElementById("imgMain").src = imgPath + "main.png";
+    document.getElementById("imgSecond").src = imgPath + "second.png";
+    document.getElementById("imgThird").src = imgPath + "third.png";
     return;
 };
 

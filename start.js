@@ -1,14 +1,15 @@
-var pictMenu = document.createElement("img");
-document.body.appendChild(pictMenu);
-pictMenu.id = "pictMenu";
-pictMenu.style.position = "absolute";
-pictMenu.style.zIndex = -1;
-pictMenu.style.top = "10px"; 
-pictMenu.style.left = "10px";
-pictMenu.src = imgPath + "menu.png";
+var divImg = document.createElement("div");
+document.body.appendChild(divImg);
+var imgStart = document.createElement("img");
+divImg.appendChild(imgStart);
+imgStart.style.position = "absolute";
+imgStart.style.zIndex = -1;
+imgStart.style.top = "10px"; 
+imgStart.style.left = "10px";
+imgStart.src = imgPath + "menu.png";
 
 var linkMenu = document.createElement("A");
-pictMenu.onmouseover = function() {startMenu()};
-pictMenu.onmouseout = function() {startMenuOff()};
-pictMenu.onmouseover = function() {startLinkMenu()};
-pictMenu.onclick = function() {startLinkMenu()};
+divImg.onmouseover = function() {startMenu()};
+divImg.onmouseout = function() {startMenuOff()};
+divImg.onmouseover = function() {startLinkMenu()};
+divImg.onclick = function() {startLinkMenu()};
