@@ -1,8 +1,8 @@
 ﻿function startHid() {
-  var x = document.getElementById("imgHid");
-  if (x.style.visibility === "hidden") {
-    x.style.visibility = "visible";
+  var viz = document.getElementById("imgHid");
+  if (viz.style.visibility === "hidden") {
+    viz.style.visibility = "visible";
   } else {
-    x.style.visibility = "hidden";
+    viz.style.visibility = "hidden";
   }
 }

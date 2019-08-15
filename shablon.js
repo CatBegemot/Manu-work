@@ -1,4 +1,5 @@
 ﻿var divLogo = document.createElement("div");
+divLogo.id = "divLogo";
 document.body.appendChild(divLogo);
   divLogo.style.position = "absolute";
   divLogo.style.zIndex = 1;
@@ -10,6 +11,7 @@ document.body.appendChild(divLogo);
   divLogo.style.background = "#3c3c3c";
 
 var divHeader = document.createElement("div");
+divHeader.id = "divHeader";
 document.body.appendChild(divHeader);
   divHeader.style.position = "absolute";
   divHeader.style.zIndex = 1;
@@ -21,6 +23,7 @@ document.body.appendChild(divHeader);
   divHeader.style.background = "#787878";
 
 var divMenu = document.createElement("div");
+divMenu.id = "divMenu";
 document.body.appendChild(divMenu);
   divMenu.style.position = "absolute";
   divMenu.style.zIndex = 1;
@@ -32,6 +35,7 @@ document.body.appendChild(divMenu);
   divMenu.style.background = "#b4b4b4";
 
 var divMain = document.createElement("div");
+divMain.id = "divMain";
 document.body.appendChild(divMain);
   divMain.style.position = "absolute";
   divMain.style.zIndex = 1;
@@ -43,6 +47,7 @@ document.body.appendChild(divMain);
   divMain.style.background = "#f0f0f0";
 
 var divFooter = document.createElement("div");
+divFooter.id = "divFooter";
 document.body.appendChild(divFooter);
   divFooter.style.position = "absolute";
   divFooter.style.zIndex = 1;
