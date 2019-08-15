@@ -23,5 +23,6 @@ divImg.appendChild(imgViz);
   imgViz.src = imgPath + "Black_pict.jpg";
   
 
-  imgHid.onclick = function() {startHid};
+  imgViz.onclick = function() {startHid()};
+  imgHid.onclick = function() {startHid()};
   
