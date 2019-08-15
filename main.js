@@ -1,42 +1,28 @@
-var divImg = document.createElement("div");
-document.body.appendChild(divImg);
+var divLogo = document.createElement("div");
+document.body.appendChild(divLogo);
 
-var imgMenu = document.createElement("img");
-divImg.appendChild(imgMenu);
-imgMenu.style.position = "absolute";
-imgMenu.style.zIndex = -1;
-imgMenu.style.top = "10px"; 
-imgMenu.style.left = "10px";
-imgMenu.src = imgPath + "menuOn.png";
+var par1 = document.createElement("p");
+document.body.appendChild(par1);
+divLogo.appendChild(par1);
+par1.innerHTML = "Logo";
 
-var imgMain = document.createElement("img");
-divImg.appendChild(imgMain);
-imgMain.style.position = "absolute";
-imgMain.style.zIndex = 1;
-imgMain.style.top = "45px"; 
-imgMain.style.left = "10px";
-imgMain.src = imgPath + "mainOn.png";
+divLogo.style.display = inlineblock;
+divLogo.style.position = "absolute";
+divLogo.style.top = 0;
+divLogo.style.left = 0;
+divLogo.style.padding = 0;
+divLogo.style.height = 160;
+divLogo.style.width = 160;
+divLogo.style.border = 1;
+divLogo.style.backgroundcolor = "grey";
 
-var imgSecond = document.createElement("img");
-divImg.appendChild(imgSecond);
-imgSecond.style.position = "absolute";
-imgSecond.style.zIndex = 1;
-imgSecond.style.top = "80px"; 
-imgSecond.style.left = "10px";
-imgSecond.src = imgPath + "second.png";
 
-var imgThird = document.createElement("img");
-divImg.appendChild(imgThird);
-imgThird.style.position = "absolute";
-imgThird.style.zIndex = 1;
-imgThird.style.top = "115px"; 
-imgThird.style.left = "10px";
-imgThird.src = imgPath + "third.png";
-
-var linkMenu = document.createElement("A");
-pictMenu.onmouseover = function() {startMain()};
-pictMenu.onmouseover = function() {startSecond()};
-pictMenu.onmouseover = function() {startThird()};
-pictMenu.onmouseout = function() {startMainOff()};
-pictMenu.onclick = function() {startLinkMain()};
+// var imgMenu = document.createElement("img");
+// imgMenu.id = "imgMenu";
+// divImg.appendChild(imgMenu);
+// imgMenu.style.position = "absolute";
+// imgMenu.style.zIndex = -1;
+// imgMenu.style.top = "10px"; 
+// imgMenu.style.left = "10px";
+// imgMenu.src = imgPath + "menuOn.png";
 

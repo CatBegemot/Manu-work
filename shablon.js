@@ -1,0 +1,54 @@
+﻿var divLogo = document.createElement("div");
+document.body.appendChild(divLogo);
+  divLogo.style.position = "absolute";
+  divLogo.style.zIndex = 1;
+  divLogo.style.top = "0px";
+  divLogo.style.left = "0px";
+  divLogo.style.height = "160px";
+  divLogo.style.width = "160px";
+  divLogo.style.border = "1px";
+  divLogo.style.background = "#3c3c3c";
+
+var divHeader = document.createElement("div");
+document.body.appendChild(divHeader);
+  divHeader.style.position = "absolute";
+  divHeader.style.zIndex = 1;
+  divHeader.style.top = "0px";
+  divHeader.style.left = "160px";
+  divHeader.style.height = "160px";
+  divHeader.style.width = "640px";
+  divHeader.style.border = "1px";
+  divHeader.style.background = "#787878";
+
+var divMenu = document.createElement("div");
+document.body.appendChild(divMenu);
+  divMenu.style.position = "absolute";
+  divMenu.style.zIndex = 1;
+  divMenu.style.top = "160px";
+  divMenu.style.left = "0px";
+  divMenu.style.height = "480px";
+  divMenu.style.width = "160px";
+  divMenu.style.border = "1px";
+  divMenu.style.background = "#b4b4b4";
+
+var divMain = document.createElement("div");
+document.body.appendChild(divMain);
+  divMain.style.position = "absolute";
+  divMain.style.zIndex = 1;
+  divMain.style.top = "160px";
+  divMain.style.left = "160px";
+  divMain.style.height = "480px";
+  divMain.style.width = "640px";
+  divMain.style.border = "1px";
+  divMain.style.background = "#f0f0f0";
+
+var divFooter = document.createElement("div");
+document.body.appendChild(divFooter);
+  divFooter.style.position = "absolute";
+  divFooter.style.zIndex = 1;
+  divFooter.style.top = "640px";
+  divFooter.style.left = "0px";
+  divFooter.style.height = "160px";
+  divFooter.style.width = "800px";
+  divFooter.style.border = "1px";
+  divFooter.style.background = "#000000";

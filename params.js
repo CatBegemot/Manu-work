@@ -1,1 +1,1 @@
-imgPath = "img/"
+﻿imgPath = "img/"
