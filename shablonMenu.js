@@ -39,7 +39,7 @@ divMenu.appendChild(imgMenu);
   imgMenu.src = imgPath + "menuImg.png";
 var dropdown = document.createElement("div");
 dropdown.id = "dropdown";
-divMenu.appendChild(dropdown);
+document.body.appendChild(dropdown);
   dropdown.style.position = "absolute";
   dropdown.style.zIndex = 1;
   dropdown.style.top = "160px";
@@ -76,4 +76,4 @@ document.body.appendChild(divFooter);
   divFooter.style.background = "#000000";
 
 imgMenu.onclick = function() {startViz()};
-imgMenu.onmouseout = function() {startHid()};
+dropdown.onmouseout = function() {startHid()};
